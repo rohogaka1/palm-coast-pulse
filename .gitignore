@@ -1,0 +1,2 @@
+node_modules/\n.next/\n.env*.local\n.DS_Store\n*.pem\nnpm-debug.log*\nyarn-debug.log*\nyarn-error.log*\n.pnp*\ncoverage/\nout/\nbuild/\n.vercel\n*.tsbuildinfo\nnext-env.d.ts
+node_modules

@@ -1,0 +1,56 @@
+{
+  "name": "palm-coast-pulse",
+  "version": "1.0.0",
+  "description": "Palm Coast Pulse - AI-powered business directory and community platform",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "jest"
+  },
+  "keywords": [
+    "business",
+    "directory",
+    "ai",
+    "marketing"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@algolia/client-search": "^5.20.3",
+    "@headlessui/react": "^2.2.0",
+    "@heroicons/react": "^2.2.0",
+    "@sendgrid/mail": "^8.1.4",
+    "@stripe/stripe-js": "^5.6.0",
+    "@supabase/supabase-js": "^2.48.1",
+    "@types/react-dom": "^18.2.19",
+    "@types/react-instantsearch-dom": "^6.12.8",
+    "algoliasearch": "^4.24.0",
+    "clsx": "^2.1.1",
+    "firebase": "^11.3.1",
+    "framer-motion": "^12.4.7",
+    "next": "^14.1.0",
+    "openai": "^4.85.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-firebase-hooks": "^5.1.1",
+    "react-instantsearch-dom": "^6.40.4",
+    "stripe": "^17.6.0",
+    "tailwind-merge": "^3.0.2"
+  },
+  "devDependencies": {
+    "@netlify/plugin-nextjs": "^5.9.4",
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@tailwindcss/forms": "^0.5.10",
+    "@tailwindcss/typography": "^0.5.16",
+    "@types/node": "22.13.5",
+    "@types/react": "^18.2.19",
+    "@types/tailwindcss": "^3.0.11",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^3.4.17",
+    "typescript": "5.7.3"
+  }
+}

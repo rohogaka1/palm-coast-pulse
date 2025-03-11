@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import Link from 'next/link'
 
 export default function ProfilePage() {
   const [isEditing, setIsEditing] = useState(false)
@@ -142,6 +143,77 @@ export default function ProfilePage() {
             )}
           </div>
         </form>
+      </div>
+
+      <div className="bg-gradient-to-br from-primary-600 to-primary-700 rounded-lg shadow-xl overflow-hidden">
+        <div className="px-6 py-12 sm:px-12 lg:px-16 relative">
+          {/* Background Pattern */}
+          <div className="absolute inset-0 opacity-10">
+            <svg className="h-full w-full" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <pattern id="small-grid" width="10" height="10" patternUnits="userSpaceOnUse">
+                  <path d="M 10 0 L 0 0 0 10" fill="none" stroke="white" strokeWidth="0.5" />
+                </pattern>
+              </defs>
+              <rect width="100" height="100" fill="url(#small-grid)" />
+            </svg>
+          </div>
+
+          <div className="relative lg:flex lg:items-center lg:justify-between">
+            <div className="max-w-xl">
+              <h2 className="text-2xl font-bold tracking-tight text-white sm:text-3xl">
+                Complete Your Profile
+              </h2>
+              <p className="mt-3 text-lg text-primary-50">
+                Stand out in Palm Coast's business community by completing your profile.
+              </p>
+              <ul className="mt-6 space-y-3 text-primary-50">
+                <li className="flex items-center">
+                  <svg className="h-5 w-5 mr-2 text-primary-200" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                  </svg>
+                  Attract more customers
+                </li>
+                <li className="flex items-center">
+                  <svg className="h-5 w-5 mr-2 text-primary-200" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                  </svg>
+                  Build trust with verified badges
+                </li>
+                <li className="flex items-center">
+                  <svg className="h-5 w-5 mr-2 text-primary-200" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                  </svg>
+                  Get featured in local searches
+                </li>
+              </ul>
+            </div>
+            <div className="mt-8 lg:mt-0 lg:ml-8 flex flex-col items-center">
+              <Link
+                href="/profile/business"
+                className="w-full sm:w-auto btn-primary bg-white !text-primary-600 hover:!bg-primary-50 group"
+              >
+                <span>Update Profile</span>
+                <svg
+                  className="ml-2 h-5 w-5 transform transition-transform group-hover:translate-x-1"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M13 7l5 5m0 0l-5 5m5-5H6"
+                  />
+                </svg>
+              </Link>
+              <p className="mt-3 text-sm text-primary-100">
+                Takes less than 5 minutes
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   )

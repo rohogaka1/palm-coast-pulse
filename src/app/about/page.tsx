@@ -1,6 +1,6 @@
 export const metadata = {
-  title: 'About - Palm Coast Pulse',
-  description: 'Learn about Palm Coast Pulse and our mission to energize local businesses and community',
+  title: 'About Palm Coast Guide - Your Relocation Resource',
+  description: 'Your comprehensive resource for moving to Palm Coast, Florida. Discover everything you need to know about housing, schools, healthcare, and community life.',
 }
 
 export default function AboutPage() {
@@ -9,64 +9,89 @@ export default function AboutPage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl mx-auto">
           <h1 className="text-4xl font-bold text-gray-900 text-center mb-8">
-            About Palm Coast Pulse
+            Your Guide to Palm Coast Living
           </h1>
 
           <div className="prose prose-lg mx-auto">
             <p>
-              Palm Coast Pulse is your premier destination for discovering
-              and connecting with local businesses and community life in Palm Coast, Florida. 
-              We're more than just a business directory - we're the heartbeat of the 
-              local community, bringing together businesses and residents.
+              Welcome to your comprehensive guide for relocating to Palm Coast, Florida! 
+              We're dedicated to making your move smooth and successful by providing detailed, 
+              up-to-date information about everything our beautiful coastal community has to offer.
             </p>
 
-            <h2>Our Mission</h2>
+            <h2>Why Choose Palm Coast?</h2>
             <p>
-              Our mission is to energize the local community by connecting businesses 
-              with customers through cutting-edge technology and AI-powered solutions, 
-              making it easier than ever to feel the pulse of Palm Coast.
+              Palm Coast offers an exceptional quality of life with its perfect blend of natural beauty, 
+              modern amenities, and strong community values. Whether you're retiring, raising a family, 
+              or seeking new opportunities, Palm Coast provides:
             </p>
-
-            <h2>What Makes Us Different</h2>
             <ul>
               <li>
-                <strong>AI-Powered Marketing:</strong> We leverage advanced AI
-                technology to help businesses create engaging content and
-                optimize their online presence.
+                <strong>Beautiful Weather:</strong> Enjoy year-round sunshine and mild winters 
+                perfect for an active outdoor lifestyle.
               </li>
               <li>
-                <strong>Local Focus:</strong> We're dedicated to the Palm Coast
-                community and understand the unique needs of local businesses.
+                <strong>Coastal Living:</strong> Miles of pristine beaches, waterways, and 
+                natural preserves at your doorstep.
               </li>
               <li>
-                <strong>Comprehensive Platform:</strong> From business listings
-                to lead generation and marketing automation, we provide all the
-                tools businesses need to succeed.
+                <strong>Growing Community:</strong> A rapidly developing city with excellent 
+                schools, healthcare facilities, and business opportunities.
               </li>
             </ul>
 
-            <h2>Our Values</h2>
+            <h2>How We Help You Move</h2>
+            <p>
+              Our platform provides comprehensive resources across key areas:
+            </p>
             <ul>
               <li>
-                <strong>Innovation:</strong> We continuously evolve our platform
-                with the latest technology to provide the best service.
+                <strong>Housing Guide:</strong> Detailed information about neighborhoods, 
+                property types, and market trends to help you find your perfect home.
               </li>
               <li>
-                <strong>Community:</strong> We're committed to helping the Palm
-                Coast business community thrive and grow.
+                <strong>Education:</strong> In-depth coverage of local schools, from elementary 
+                to higher education, helping families make informed decisions.
               </li>
               <li>
-                <strong>Excellence:</strong> We strive to provide the highest
-                quality service and support to our business partners.
+                <strong>Healthcare:</strong> Complete overview of medical facilities, 
+                specialists, and wellness resources in the area.
+              </li>
+              <li>
+                <strong>Lifestyle:</strong> Discover local attractions, recreation 
+                opportunities, dining options, and community events.
+              </li>
+              <li>
+                <strong>Employment:</strong> Explore job opportunities, major employers, 
+                and business development resources.
               </li>
             </ul>
 
-            <h2>Join Our Community</h2>
+            <h2>Moving Resources</h2>
             <p>
-              Whether you're a business owner looking to grow your presence or a
-              resident searching for local services, Palm Coast Pulse is
-              here to help. Join our community today and be part of Palm
-              Coast's digital transformation.
+              We provide practical tools to make your relocation easier:
+            </p>
+            <ul>
+              <li>
+                <strong>Moving Checklist:</strong> Comprehensive timeline and tasks to 
+                ensure nothing is overlooked during your move.
+              </li>
+              <li>
+                <strong>Local Services:</strong> Curated directory of trusted moving companies, 
+                real estate agents, and essential service providers.
+              </li>
+              <li>
+                <strong>Community Connections:</strong> Resources to help you connect with 
+                local groups and activities that match your interests.
+              </li>
+            </ul>
+
+            <h2>Start Your Journey</h2>
+            <p>
+              Whether you're just starting to consider Palm Coast or ready to make the move, 
+              we're here to help every step of the way. Explore our comprehensive guides, 
+              connect with local experts, and discover why Palm Coast is the perfect place 
+              to call home.
             </p>
           </div>
         </div>

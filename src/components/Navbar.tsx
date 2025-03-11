@@ -16,7 +16,6 @@ const navigation = [
   { name: 'Home', href: '/', current: true },
   { name: 'Businesses', href: '/businesses', current: false },
   { name: 'About', href: '/about', current: false },
-  { name: 'Register', href: '/register', current: false },
 ]
 
 export default function Navbar() {
